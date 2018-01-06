@@ -6,7 +6,7 @@
 //  Copyright © 2017 Irawan Kuncoro. All rights reserved.
 //
 
-class TodoeyItemLists {
+class TodoeyItemLists: Codable {
     var item: String = ""
     var done: Bool = false
 }
